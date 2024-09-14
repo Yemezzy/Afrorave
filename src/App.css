@@ -1,38 +1,91 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.ccvc {
+  width: 100%;
+  height: 500px;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+
+}
+.bmm{
+  /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+  font-family: fantasy;
+  font-weight: 800;
+
+}
+.container {
+  perspective: 800px;
+  width: 200px;
+  height: 200px;
 }
 
-.App-link {
-  color: #61dafb;
+.cube {
+  width: 200px;
+  height: 200px;
+  position: relative;
+  transform-style: preserve-3d;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.side {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: red;
+  opacity: 0.6;
+}
+
+
+.front {
+  transform: rotateY(0deg) translateZ(100px);
+  background-color: #ee4444;
+}
+.right {
+  transform: rotateY(90deg) translateZ(100px);
+  background-color: #ffcc00;
+}
+.back {
+  transform: rotateY(180deg) translateZ(100px);
+  background-color: #ff0055;
+}
+.left {
+  transform: rotateY(-90deg) translateZ(100px);
+  background-color: #371d74;
+}
+.top {
+  transform: rotateX(90deg) translateZ(100px);
+  background-color: #0099ff;
+}
+.bottom {
+  transform: rotateX(-90deg) translateZ(100px);
+  background-color: #22cc88;
+}
+.pp1{
+background-image: url(/public/image/pp1.jpeg);
+background-position: center;
+background-size: cover;
+}
+.pp2{
+background-image: url(/public/image/pp3.jpeg);
+background-position: center;
+background-size: cover;
+}
+.pp3{
+background-image: url(/public/image/pp2.jpeg);
+background-position: center;
+background-size: cover;
+}
+.pp4{
+background-image: url(/public/image/pp5.jpeg);
+background-position: center;
+background-size: cover;
+}
+.pp5{
+background-image: url(/public/image/pp4.jpeg);
+background-position: center;
+background-size: cover;
+}
+.lol{
+  background-image: url(/public/image/pp2.jpeg);
+  background-position: center;
+background-size: contain;
+background-repeat: no-repeat;
 }
