@@ -15,7 +15,7 @@ const Afrorave = () => {
         </div> 
         </nav>
 
-        <div className='md:px-10 px-3 '>
+        <div className='md:px-10 px-3 bbc'>
             <div className='border- rounded-xl  h-[500px] border-black lol p-5'>
     {/* <div className='flex justify-center'>
     <div className='grid grid-cols-3 gap-10'>
