@@ -15,7 +15,7 @@ const Afrorave = () => {
         </div> 
         </nav>
 
-        <div className='md:px-10 px-3 mt-5'>
+        <div className='md:px-10 px-3 '>
             <div className='border- rounded-xl  h-[500px] border-black lol p-5'>
     {/* <div className='flex justify-center'>
     <div className='grid grid-cols-3 gap-10'>
@@ -52,7 +52,7 @@ const Afrorave = () => {
             <div className='mt-10 md:flex items-center justify-between rounded-2xl bg-[#DB0056] p-5 md:h-[150px] '>
 <div>
 <p className='font-bold md:text-xl'>Are you ready RAVERS?</p>
-<p className='font-bold md:text-3xl text-xl'>Subscribe to our newsletter</p>
+<p className='font-bold md:text-3xl'>Subscribe to our newsletter</p>
 </div>
 <div className=' md:w-[50%] mt-3 md:mt-0'>
 <p className='font-bold md:text-lg text-right '>Enter your email address here</p>
