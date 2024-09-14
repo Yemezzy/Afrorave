@@ -20,7 +20,7 @@ const Afrorave = () => {
                 <section className='p-2 bg-[#0D65CB]'>
                     <div className='p-2 bg-[#FDC033]'>
                         <section className='p-2 bg-[#4CA26B]'>
-                            <div className='bg-[#FC0200]'>
+                            <div className='bbw'>
 
                         <div className='rounded-xl  h-[500px] border-black lol p-5'>
                         </div>
