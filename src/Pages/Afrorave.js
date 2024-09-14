@@ -16,7 +16,19 @@ const Afrorave = () => {
         </nav>
 
         <div className='md:px-10 px-3 bbc'>
-            <div className='border- rounded-xl  h-[500px] border-black lol p-5'>
+            <div className='p-2 bg-[#FC0200]'>
+                <section className='p-2 bg-[#0D65CB]'>
+                    <div className='p-2 bg-[#FDC033]'>
+                        <section className='p-2 bg-[#4CA26B]'>
+                            <div className='bg-[#FC0200]'>
+
+                        <div className='rounded-xl  h-[500px] border-black lol p-5'>
+                        </div>
+                            </div>
+                        </section>
+                    </div>
+                </section>
+            </div>
     {/* <div className='flex justify-center'>
     <div className='grid grid-cols-3 gap-10'>
             <section className=' w-[370px] h-[300px] pp1 border- border-black'>
@@ -40,7 +52,6 @@ const Afrorave = () => {
             </section>
         </div>
     </div> */}
-            </div>
 
             <div className='md:mt-10 mt-5'>
 <p className='md:text-lg text-sm'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium adipisci aspernatur voluptas consectetur omnis nihil pariatur esse, 
