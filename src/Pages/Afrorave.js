@@ -10,7 +10,7 @@ const Afrorave = () => {
        <img src="/image/RAVE.svg" alt="image" className='md:w-[5%] w-20 md:mt-5'/> 
        <div>
         <marquee behavior="" direction="left">
-        <p>Ravers get ready</p>   
+        <p className='bg-[#DB0056] p-1'>Ravers get ready</p>   
         </marquee>
         </div> 
         </nav>
