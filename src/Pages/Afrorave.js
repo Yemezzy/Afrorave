@@ -1,33 +1,34 @@
 import React from 'react'
+import { useEffect } from 'react'
 import { FaInstagram } from 'react-icons/fa'
 import { FaXTwitter } from 'react-icons/fa6'
 import { LuFacebook } from 'react-icons/lu'
+import Aos from "aos"
+import "aos/dist/aos.css"
 
 const Afrorave = () => {
+
+useEffect(()=>{
+    Aos.init({ duration: 2000})
+}, []);
+
   return (
     <div className='bmm'>
-        <nav className='md:py-3 py-5 px-10  flex items-center justify-between text-xl font-bold '>
-       <img src="/image/RAVE.svg" alt="image" className='md:w-[5%] w-20 md:mt-5'/> 
-       <div>
+        <nav className='md:py-3 py-5 px-10  flex items-center justify-center text-xl font-bold '>
+       <img src="/image/RAVE.svg" alt="image" className='md:w-[5%] w-20 md:mt-5' data-aos="zoom-in"/> 
+       {/* <div>
         <marquee behavior="" direction="left">
-        <p className='bg-[#DB0056] p-1'>Ravers get ready</p>   
+        <p className=' p-1'>Ravers get ready</p>   
         </marquee>
-        </div> 
+        </div>  */}
         </nav>
 
         <div className='md:px-10 px-3 bbc'>
-            <div className='p-2 bg-[#FC0200]'>
-                <section className='p-2 bg-[#0D65CB]'>
-                    <div className='p-2 bg-[#FDC033]'>
-                        <section className='p-2 bg-[#4CA26B]'>
-                            <div className='bg-[#FC0200]'>
-
+            <div className='border-[#FC0200] border-4' data-aos="zoom-in">
+              
                         <div className='rounded-xl  h-[500px] border-black lol p-5'>
                         </div>
-                            </div>
-                        </section>
-                    </div>
-                </section>
+     
             </div>
     {/* <div className='flex justify-center'>
     <div className='grid grid-cols-3 gap-10'>
@@ -53,14 +54,14 @@ const Afrorave = () => {
         </div>
     </div> */}
 
-            <div className='md:mt-10 mt-5'>
+            <div className='md:mt-10 mt-5' data-aos="fade-right">
 <p className='md:text-lg text-sm'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium adipisci aspernatur voluptas consectetur omnis nihil pariatur esse, 
     repellat, nisi possimus eos officia, officiis sint deleniti. Magni non voluptatum perferendis mollitia. Lorem ipsum dolor sit amet consectetur adipisicing elit.
      Reprehenderit fugit dolores tempora impedit repellat aliquam quaerat iusto itaque asperiores nesciunt.</p>
             </div>
 
 
-            <div className='mt-10 md:flex items-center justify-between rounded-2xl bg-[#DB0056] p-5 md:h-[150px] '>
+            <div className='mt-10 md:flex items-center justify-between rounded-2xl bg-[#DB0056] p-5 md:h-[150px]' data-aos="zoom-in-up">
 <div>
 <p className='font-bold md:text-xl'>Are you ready RAVERS?</p>
 <p className='font-bold md:text-3xl'>Subscribe to our newsletter</p>
