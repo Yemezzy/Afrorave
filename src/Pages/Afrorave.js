@@ -37,11 +37,10 @@ useEffect(()=>{
         className="mySwiper"
   
       >
-        <SwiperSlide>Slide 1</SwiperSlide>
-        <SwiperSlide>Slide 2</SwiperSlide>
-        <SwiperSlide > 3</SwiperSlide>
-        <SwiperSlide>Slide 4</SwiperSlide>
-        <SwiperSlide>Slide 5</SwiperSlide>
+        <SwiperSlide></SwiperSlide>
+        <SwiperSlide></SwiperSlide>
+        <SwiperSlide ></SwiperSlide>
+    
     
       </Swiper>
     </>
@@ -70,14 +69,17 @@ useEffect(()=>{
         </div>
     </div> */}
 
-            <div className='md:mt-10 mt-5' data-aos="fade-right">
+            <div className='mt-10' data-aos="fade-right">
 <p className='md:text-lg text-sm'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium adipisci aspernatur voluptas consectetur omnis nihil pariatur esse, 
     repellat, nisi possimus eos officia, officiis sint deleniti. Magni non voluptatum perferendis mollitia. Lorem ipsum dolor sit amet consectetur adipisicing elit.
      Reprehenderit fugit dolores tempora impedit repellat aliquam quaerat iusto itaque asperiores nesciunt.</p>
             </div>
 
-
-            <div className='mt-10 md:flex items-center justify-between rounded-2xl bg-[#DB0056] p-5 md:h-[150px]' data-aos="zoom-in-up">
+<div className='bg-[#DB0056] flex justify-center p-1 rounded-2xl items-end mt-10' data-aos="zoom-in-down">
+    <p className='text-2xl font-extrabold text-[#FAD943]'>Let's</p>
+    <img src="https://i.gifer.com/embedded/download/Pcc.gif" alt=""  className='w-[70%]'/>
+</div>
+            <div className='mt-3 md:flex items-center justify-between rounded-2xl bg-[#DB0056] p-5 md:h-[150px]' data-aos="zoom-in-up">
 <div>
 <p className='font-bold md:text-xl'>Are you ready RAVERS?</p>
 <p className='font-bold md:text-3xl'>Subscribe to our newsletter</p>
