@@ -1,13 +1,17 @@
 import React from 'react'
-import { useEffect } from 'react'
+import { useEffect, useState } from 'react'
 import { FaInstagram } from 'react-icons/fa'
 import { FaXTwitter } from 'react-icons/fa6'
 import { LuFacebook } from 'react-icons/lu'
 import Aos from "aos"
 import "aos/dist/aos.css"
+import { Swiper, SwiperSlide } from 'swiper/react';
+import 'swiper/css';
+import 'swiper/css/effect-cards';
+import { EffectCards } from 'swiper/modules';
 
 const Afrorave = () => {
-
+    const [firstSwiper, setFirstSwiper] = useState(null);
 useEffect(()=>{
     Aos.init({ duration: 2000})
 }, []);
@@ -23,12 +27,24 @@ useEffect(()=>{
         </div>  */}
         </nav>
 
-        <div className='md:px-10 px-3 bbc'>
-            <div className='border-[#FC0200] border-4' data-aos="zoom-in">
-              
-                        <div className='rounded-xl  h-[500px] border-black lol p-5'>
-                        </div>
-     
+        <div className='md:px-10 mt-10 px-3 bbc'>
+            <div className='' data-aos="zoom-in">
+                        <>
+      <Swiper
+        effect={'cards'}
+        grabCursor={true}
+        modules={[EffectCards]}
+        className="mySwiper"
+  
+      >
+        <SwiperSlide>Slide 1</SwiperSlide>
+        <SwiperSlide>Slide 2</SwiperSlide>
+        <SwiperSlide > 3</SwiperSlide>
+        <SwiperSlide>Slide 4</SwiperSlide>
+        <SwiperSlide>Slide 5</SwiperSlide>
+    
+      </Swiper>
+    </>
             </div>
     {/* <div className='flex justify-center'>
     <div className='grid grid-cols-3 gap-10'>
