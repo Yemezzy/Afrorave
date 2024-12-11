@@ -75,9 +75,12 @@ useEffect(()=>{
      Reprehenderit fugit dolores tempora impedit repellat aliquam quaerat iusto itaque asperiores nesciunt.</p>
             </div>
 
-<div className='bg-[#DB0056] flex justify-center p-1 rounded-2xl items-end mt-10' data-aos="zoom-in-down">
-    <p className='text-2xl font-extrabold text-[#FAD943]'>Let's</p>
-    <img src="https://i.gifer.com/embedded/download/Pcc.gif" alt=""  className='w-[70%]'/>
+<div className='bg-[#DB0056] flex justify-center p-1 rounded-md py-3 mt-10' data-aos="zoom-in-down">
+    {/* <p className='text-2xl font-extrabold text-[#FAD943]'>Let's</p>
+    <img src="https://i.gifer.com/embedded/download/Pcc.gif" alt=""  className='w-[70%]'/> */}
+    <div>
+      <p className='text-lg font-semibold uppercase'>Buy Tickets</p>
+    </div>
 </div>
             <div className='mt-3 md:flex items-center justify-between rounded-2xl bg-[#DB0056] p-5 md:h-[150px]' data-aos="zoom-in-up">
 <div>

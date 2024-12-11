@@ -6,6 +6,10 @@
   align-items: center;
 
 }
+
+body{
+  font-style: poppin;
+}
 /* .bbw{
 background-image: url(https://media.istockphoto.com/id/1410290731/vector/abstract-zap-lightning-bolt-excitement-modern-gradient-background.jpg?s=612x612&w=0&k=20&c=UMea5QGy2oich3WfP5gsmHV5vgFdXCcIIoEBYpyWyWA=);
 }
